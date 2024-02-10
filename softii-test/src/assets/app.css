@@ -1,0 +1,472 @@
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-weight: normal;
+}
+
+body {
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*Header*/
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.header-container .title {
+    width: 50%;
+    font-size: 12px;
+    color: #3d3d3d;
+}
+
+.header-container .value {
+    width: 50%;
+    text-align: end;
+}
+
+.header-container .value label {
+    color: #ed6a5a;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.header-container .value input {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    color: #ed6a5a;
+    background-color: #fbdeda;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/*Contenedores de módulos*/
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left-module {
+    color: #3d3d3d;
+    margin: 0 15px;
+}
+
+.midle-module {
+    color: #3d3d3d;
+    margin: 0 15px;
+}
+
+.right-module {
+    color: #3d3d3d;
+    margin: 0 15px;
+}
+
+/*Total Tips*/
+.total-tips-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.total-tips-container label {
+    color: #ed6a5a;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.total-tips-container input {
+    width: 200px;
+    padding: 5px;
+    border: #fbdeda 1px solid;
+    text-align: center;
+    font-size: 30px;
+    color: #ed6a5a;
+    background-color: #fbdeda;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.total-tips-container .active {
+    border: #ed6a5a 1px solid;
+    color: #ed6a5a;
+    background-color: transparent;
+}
+
+.total-tips-container button {
+    margin: 5px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+/*Tips Split*/
+.tips-split-container {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.tips-split-container .content {
+    display: flex;
+    align-items: center;
+}
+
+.tips-split-container .content .input {
+    width: 30%;
+    display: flex;
+}
+
+.tips-split-container .content button {
+    margin: 5px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+.tips-split-container .content .split {
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ed6a5a;
+}
+
+.tips-split-container .content .input input {
+    width: 50px;
+    padding: 10px;
+    border: #fbdeda 1px solid;
+    text-align: center;
+    font-size: 20px;
+    color: #3d3d3d;
+    background-color: #fbdeda;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.tips-split-container .content .input .active {
+    border: #575757 1px solid;
+    color: #3d3d3d;
+    background-color: transparent;
+}
+
+/*Payment Methods*/
+.payment-method-container {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.payment-method-container .title {
+    margin-top: 20px;
+    display: flex;
+}
+
+.payment-method-container .payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    height: 160px;
+}
+
+.payment-method-container .payment-methods button {
+    margin: 5px;
+    width: 120px;
+    height: 65px;
+    border: #c2c2c2 1px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #3d3d3d;
+    box-shadow: 5px 5px 5px #999999;
+    transition: 0.2s;
+}
+
+.payment-method-container .payment-methods button:hover {
+    background-color: #ed6a5a;
+    color: #fff;
+}
+
+/*Keyboard*/
+.keyboard-container {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.keyboard-container .keyboard {
+    padding: 25px;
+    background-color: #fdf5f3;
+    border: #ed6a5a 2px solid;
+    border-radius: 10px;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+.keyboard-container .keyboard .value {
+    display: flex;
+    width: 220px;
+    margin: 0 auto 10px auto;
+    align-items: center;
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-bottom: #3d3d3d 2px solid;
+}
+
+.keyboard-container .keyboard .value input {
+    width: 160px;
+    background-color: transparent;
+    text-align: end;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    padding: 0 10px;
+}
+
+.keyboard-container .keyboard .value button {
+    color: #999999;
+    border: none;
+    background-color: transparent;
+}
+
+.keyboard-container .keyboard .keys .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.keyboard-container .keyboard .keys .row button {
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border: #c2c2c2 1px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #3d3d3d;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.keyboard-container .keyboard .keys .row .send {
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #ed6a5a;
+    color: #fff;
+
+    padding: 0;
+    font-size: small;
+
+}
+
+/*Payments*/
+.payments-container {
+    width: 350px;
+    margin: 20px auto;
+}
+
+.payments-container .title {
+    font-size: 12px;
+}
+
+.payments-container .payment-list {
+    width: 100%;
+    height: calc(100vh - 250px);
+    overflow-y: auto;
+}
+
+.payments-container .payment-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.payments-container .payment-list ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 5px;
+    box-shadow: 5px 5px 5px #999999;
+    width: 250px;
+    border: #c2c2c2 1px solid;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #3d3d3d;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.payments-container .payment-list ul li .icon {
+    width: 30px;
+}
+
+.payments-container .payment-list ul li .type {
+    width: 80px;
+    text-align: left;
+}
+
+.payments-container .payment-list ul li .tip {
+    width: 140px;
+    text-align: right;
+}
+
+.payments-container .payment-list ul li .tip button {
+    background-color: transparent;
+    border: none;
+    color: #eb5a47;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+/*Payments totals*/
+.total-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-container .texts {
+    width: 400px;
+}
+
+.total-container h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.total-container .total-to-pay {
+    display: flex;
+    align-items: center;
+    color: #eb5a47;
+}
+
+.total-container .total-to-pay .text {
+    width: 70%;
+}
+
+.total-container .total-to-pay .value {
+    width: 30%;
+    text-align: right;
+}
+
+.total-container .total-for-pay {
+    display: flex;
+    align-items: center;
+}
+
+.total-container .total-for-pay .text {
+    width: 70%;
+}
+
+.total-container .total-for-pay .value {
+    width: 30%;
+    text-align: right;
+}
+
+.total-container .cta {
+    width: 400px;
+    text-align: center;
+}
+
+.total-container .cta button {
+    width: 80%;
+    border-radius: 30px;
+    background-color: #ed6a5a;
+    border: #ed6a5a 1px solid;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+
+    .header-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .header-container .title {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #3d3d3d;
+    }
+
+    .header-container .value {
+        width: 100%;
+        text-align: center;
+    }
+
+    .total-tips-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tips-split-container {
+        width: 100%;
+        text-align: center
+    }
+
+    .payment-method-container {
+        width: 100%;
+    }
+
+    .keyboard-container {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+}
+
+/*Otros*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*-Scrolls-*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ed6a5a;
+    border-radius: 20%;
+}
